@@ -39,6 +39,39 @@ This project aims to automate the verification of semi-structured and unstructur
 └── README.md                 # Project documentation (this file)
 ```
 
+## How to Update This Repo
+1. **Clone the Repository (if you haven't already):**
+```
+git clone https://github.com/SIH1652/SIH1652.git
+```
+2. **Navigate to the Project Directory:**
+```
+cd SIH1652
+```
+3. **Create a New Branch:**
+```
+git checkout -b <your-branch-name>
+```
+4. **Make Your Changes**
+    - (Edit the necessary files)
+    - Stage Your Changes:
+```
+git add .
+```
+5. **Commit Your Changes:**
+```
+git commit -m "Description of your changes"
+```
+
+6. **Push Your Changes to the Remote Repository:**
+```
+git push origin <your-branch-name>
+```
+
+7. **Create a Pull Request**
+   (Follow GitHub prompts to submit your pull request for review)
+
+## Installation and Setup
 #### OCR and Preprocessing Module (Rushikesh's Work)
 
 ##### Prerequisites:
