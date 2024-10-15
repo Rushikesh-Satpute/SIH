@@ -8,10 +8,10 @@ This project aims to automate the verification of semi-structured and unstructur
 
 ## Team Members and Responsibilities
 
-- **Rushikesh Satpute**: Text extraction using OCR (Tesseract) in Python.
-- **Shruti**: Frontend UI Development using HTML, CSS, and JavaScript.
+- **Shruti**: Frontend UI Development.
+- **Shweta**: Preprocessing.
+- **Rushikesh**: Text extraction using OCR (Tesseract) in Python.
 - **Shriniwas**: NLP-related tasks implemented in Jupyter Notebook.
-- **Shweta**: Data Preprocessing.
 - **Riya**: Dataset Collection and Management.
 - **Gaurav**: AI Model Design and Development.
 
@@ -19,9 +19,9 @@ This project aims to automate the verification of semi-structured and unstructur
 
 ## Project Structure
 
-```bash
+```
 ├── backend/
-│   ├── ocr_module.py         # Rushikesh's OCR
+│   ├── ocr_module.py         # Rushikesh's OCR (It also include Preprocessing)
 │   ├── preprocessing.py      # Shweta's preprocessing code
 │   ├── requirements.txt      # Python dependencies for backend and OCR
 ├── frontend/
@@ -37,7 +37,7 @@ This project aims to automate the verification of semi-structured and unstructur
 │   ├── model_design.py       # Gaurav's AI model design
 │   ├── model_training.py     # AI model training script
 └── README.md                 # Project documentation (this file)
-
+```
 
 #### OCR and Preprocessing Module (Rushikesh's Work)
 
@@ -49,7 +49,7 @@ This project aims to automate the verification of semi-structured and unstructur
 
 1. **Clone the Repository**:
 
-    ```bash
+    ```
     git clone https://github.com/SIH1652/SIH1652.git
     cd SIH1652/backend
     ```
@@ -57,14 +57,18 @@ This project aims to automate the verification of semi-structured and unstructur
 2. **Install Dependencies**:  
    Ensure `tesseract` is installed and add its path to the environment variables.
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
-
+3. **Install TeserracrOCR exe file**:
+    Install following in Path which is specified in ocr_module.py file
+    Default path: C:\Program Files\Tesseract-OCR\tesseract.exe 
+    [Download](https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe)
+    
 3. **Run the OCR Module**:  
    Run the following command to preprocess and extract text from an image or PDF.
 
-    ```bash
+    ```
     python ocr_module.py
     ```
 
