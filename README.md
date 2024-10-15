@@ -1,6 +1,6 @@
 # Comprehensive Automated Document Verification System
 
-### Problem Statement Number: **SIH1652**
+### Problem Statement: **SIH1652**
 
 This project aims to automate the verification of semi-structured and unstructured documents using advanced techniques in **OCR**, **Preprocessing**, **Natural Language Processing (NLP)**, **Dataset Management**, **AI Model Design**, and an **Interactive Web UI**. The goal is to streamline the document verification process efficiently and accurately.
 
