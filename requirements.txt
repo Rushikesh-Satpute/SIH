@@ -1,0 +1,7 @@
+opencv-python==4.8.0.74
+Pillow==10.0.0
+pytesseract==0.3.10
+numpy==1.24.4
+tk==0.1.0
+pdf2image==1.16.3
+concurrent==0.1
